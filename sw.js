@@ -1,11 +1,11 @@
-const CACHE_NAME = 'belims-editor-cache-v1';
+const CACHE_NAME = 'belims-editor-cache-v2';
 const urlsToCache = [
   '/',
   '/index.html',
   'https://cdn.tailwindcss.com',
-  '/index.tsx',
-  '/App.tsx',
-  '/types.ts',
+  '/src/index.tsx',
+  '/src/App.tsx',
+  '/src/types.ts',
   '/manifest.webmanifest',
   '/utils/fileUtils.ts',
   '/services/geminiService.ts',

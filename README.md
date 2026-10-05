@@ -18,3 +18,15 @@ View your app in AI Studio: https://ai.studio/apps/drive/17fjDbdOnhApjRIkltaSmpG
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+## Repository layout
+
+Application source lives in `src/`, with the existing component and service folders preserved. Run the existing commands from the repository root. HTML entry points, build configuration, environment files, and deployment entry points remain at the root.
+
+### Moved files
+
+| Previous path | Current path |
+| --- | --- |
+| `App.tsx` | [`src/App.tsx`](src/App.tsx) |
+| `index.tsx` | [`src/index.tsx`](src/index.tsx) |
+| `types.ts` | [`src/types.ts`](src/types.ts) |
